@@ -1,6 +1,133 @@
-background-color:pink;
-margin-left: 20%;
-margin-right: 20%;
-border:2px dotted white;
-padding:10px 10px 10px 10px;
-font-family:sans-serif;
+body{
+    background:url(images/3.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    border:2px dotted wheat;
+    padding:10px 10px 10px 10px;
+    font-family:sans-serif;
+}
+
+.symbol{
+    height: 100%;
+    width: 30%;
+    float:left;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+a{
+    color:rgb(284, 137, 147);
+}
+.guide{
+    font-family: 幼圆;
+    font-weight: bold;
+    font-size: larger;
+    height: 80px;
+    background-color:white;
+    margin: 0 0 30 0;
+}
+.guider{
+    padding-top: 30px;
+}
+
+ #main{
+    display:table-cell;
+    line-height: 3em;
+    color:rgb(227, 62, 120);
+    font-family: 幼圆;
+
+
+ }
+
+#sidebar{
+    display: table-cell;
+    line-height:3em;
+    font-size:large;
+    color:aquamarine;
+    width:300px;
+    background:url(images/background.gif);
+    text-align: center;
+
+}
+
+
+#tablecontainer{
+    display:table;
+    border-spacing:10px;
+}
+
+#tablerow{
+    display:table-row;
+}
+
+
+
+ #footer{
+    background-image:url(images/part.gif); 
+    line-height: 4em;
+    color:rgb(227, 62, 120);
+    text-align:center;
+    font-weight: bold;
+    font-size: larger;
+ }
+
+
+ /*以上为index.html*/
+
+
+ h1{
+    color:aquamarine;
+    background-color:palevioletred;
+    text-align: center;
+   }
+
+
+
+ .introduction{
+    text-align: center;
+    background-color: white;
+    margin:0 auto;
+    width: "50%";
+    height: "30%";
+    border-width:5px;
+	border-color:palevioletred;
+    
+}
+
+
+
+/*以上为introduction.html*/
+
+#legend1{
+   color:aquamarine;
+   font-size: medium;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+form textarea {
+	display: table-cell;
+	width: 500px;
+	height: 100px;
+}
+
+/*以上为message.html*/
+
+#thank{
+    text-align: center;
+    font-weight: bold;
+    line-height:3em;
+    font-size: xx-large;
+    color:aquamarine;
+    background:url(images/background.gif);
+
+}
+
+/*以上为Thanks.html*/
